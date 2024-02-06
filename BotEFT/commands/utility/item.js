@@ -49,8 +49,9 @@ module.exports = {
                         { name: 'Description', value: item.description || 'Description not available' }
                     )
                     .addFields(...tasks) // Spread the tasks array to add multiple fields
-                    .setImage(item.inspectImageLink || 'https://example.com/default_image.png')
+                    .setImage(item.inspectImageLink)
                     .addFields({ name: 'Average 24h Price', value: `${item.avg24hPrice || 'Price not available'} ₽` })
+                    
                     .setTimestamp()
                     .setFooter({ text: 'Escape From Tarkov', iconURL: 'https://www.picng.com/upload/escape_from_tarkov/png_escape_from_tarkov_68702.png' });
 
