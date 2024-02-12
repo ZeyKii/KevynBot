@@ -27,7 +27,7 @@ client.once(Events.ClientReady, () => {
 	});
 
 	client.user.setPresence({
-		activities: [{ name: `Attend une commande`, type: ActivityType.Custom }],
+		activities: [{ name: `Spam 1v1 Tagilla 🔨`, type: ActivityType.Custom }],
 		status: 'dnd',
 	  });
 

@@ -12,6 +12,10 @@
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.1",
     "graphql-request": "^6.1.0",
+    "npmon": "^1.0.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
