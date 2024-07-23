@@ -19,9 +19,9 @@ Kevyn est un bot Discord développé en JavaScript, conçu pour fournir des info
 
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/ZeyKii/kevyn-bot.git
+    git clone https://github.com/ZeyKii/KevynBot.git
 
-    cd kevyn-bot
+    cd KevynBot
     ```
 
 2. Installez les dépendances :
