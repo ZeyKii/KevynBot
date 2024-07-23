@@ -38,12 +38,14 @@ Kevyn est un bot Discord développé en JavaScript, conçu pour fournir des info
 
 4. Déployez les commandes :
     ```bash
+    cd .\BOT\
+    
     node commands_deployment.js
     ```
 
 5. Lancez le bot :
     ```bash
-    node index.js
+    node bot.js
     ```
 
 ## Utilisation
